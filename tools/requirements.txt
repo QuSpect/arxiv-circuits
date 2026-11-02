@@ -1,0 +1,8 @@
+# Pipeline and tests. qiskit is pinned: the published QASM text is produced by qiskit's
+# transpiler and QASM exporter, so other versions may emit different (equivalent) text.
+qiskit==2.6.1
+numpy>=2.0
+scipy>=1.10
+# Optional extra load checks in build_dataset.py / check_dataset.py (skipped when absent):
+#   quspect
+#   pytket

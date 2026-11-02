@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this dataset, please cite it as below, and also cite the original
+  paper of every circuit you use (see the arxiv_id and url fields in manifest.csv).
+type: dataset
+title: "arxiv-circuits: key quantum circuits from recent arXiv quant-ph papers"
+abstract: >-
+  55 quantum circuits from 41 arXiv quant-ph papers submitted between 2026-06-28
+  and 2026-10-28, read gate by gate from the quantikz/qcircuit diagrams in the
+  papers' LaTeX sources, verified, and published as OpenQASM 2.0 with a manifest
+  linking each circuit to its source paper.
+authors:
+  - family-names: Xu
+    given-names: Xusheng
+  - name: QuSpect
+version: 1.0.0
+date-released: "2026-11-02"
+license: CC-BY-4.0
+repository-code: "https://github.com/QuSpect/arxiv-circuits"
+url: "https://github.com/QuSpect/arxiv-circuits"
+keywords:
+  - quantum computing
+  - quantum circuits
+  - OpenQASM
+  - benchmark
+  - dataset
+  - arXiv

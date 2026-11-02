@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+# pipeline work directories (downloaded arXiv sources are not redistributed)
+work/
+data/
